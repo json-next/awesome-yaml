@@ -11,18 +11,23 @@ A collection of Awesome YAML (Ain't Markup Language) goodies for rich structured
 
 ### "Standard" YAML
 
-### "Safe" YAML
+**YAML HQ**
 
+- [`yaml.org`](http://www.yaml.org) - Official YAML Website maintained by Clark C. Evans
+
+
+### "Safe" YAML
 
 
 
 ## Tools & Services
 
-- [**YAML Online Linter**](http://www.yamllint.com)) - online YAML validator / checker
+- [**YAML Online Linter**](http://www.yamllint.com) - online YAML validator / checker
 
 
 ## Articles
 
+- [**YAML Quick Reference (Cheat Sheet) for Jekyll Data Files, Front Matter and Collections**], Planet Jekyll
 - [**Deep dive into TOML, JSON and YAML**](https://gohugohq.com/howto/toml-json-yaml-comparison/),  Go Hugo HQ, Dec 2016
 
 
