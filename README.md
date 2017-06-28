@@ -29,11 +29,8 @@ A collection of Awesome YAML (Ain't Markup Language) goodies for rich structured
   - [YAML Spec v1.2](http://yaml.org/spec/1.2/spec.html) - 3rd edition, Oct 2009 
   - [YAML Quick Reference Card](http://www.yaml.org/refcard.html) - one-page cheat sheet
 
-<!--
 ### "Safe" YAML
 
-  to be done
--->
 
 
 ## Articles
