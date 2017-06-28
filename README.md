@@ -29,19 +29,17 @@ A collection of Awesome YAML (Ain't Markup Language) goodies for rich structured
   - [YAML Spec v1.2](http://yaml.org/spec/1.2/spec.html) - 3rd edition, Oct 2009 
   - [YAML Quick Reference Card](http://www.yaml.org/refcard.html) - one-page cheat sheet
 
-
+<!--
 ### "Safe" YAML
 
-
-
-## Tools & Services
-
-- [**YAML Online Linter**](http://www.yamllint.com) - online YAML validator / checker
+  to be done
+-->
 
 
 ## Articles
 
 - [**YAML Quick Reference (Cheat Sheet) for Jekyll Data Files, Front Matter and Collections**](https://github.com/planetjekyll/quickrefs/blob/master/YAML.md), Planet Jekyll
+- [**Learn YAML in Y Minutes**](https://learnxinyminutes.com/docs/yaml), Learn X in Y minutes series, 
 - [**Deep dive into TOML, JSON and YAML**](https://gohugohq.com/howto/toml-json-yaml-comparison/),  Go Hugo HQ, Dec 2016
 - [**YAML @ Wikipedia**](https://en.wikipedia.org/wiki/YAML)
 
@@ -124,7 +122,7 @@ Example: Use the inline style for lists (that is, JSON arrays)
 and hashes (that is, JSON objects) for an alternative "JSON-style" syntax:
 
 
-``` yaml
+``` json
 [
   { "title": "football.db - Open Football Data",
     "url":   "https://github.com/openfootball" 
@@ -143,6 +141,15 @@ is the same as:
 - title : beer.db - Open Beer, Brewery 'n' Brewpub Data
   url   : https://github.com/openbeer
 ```
+
+
+
+
+## Tools & Services
+
+- [**YAML Linter @ yamllint.com**](http://www.yamllint.com) - online YAML validator / checker
+- [**YAML Validator @ Code Beautify**](https://codebeautify.org/yaml-validator) - online YAML validator / checker
+
 
 
 ## Misc
