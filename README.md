@@ -53,7 +53,7 @@ A collection of Awesome YAML (Ain't Markup Language) goodies for rich structured
 
 When to use quotes for your strings?
 
-If your string includes a colon (`:`) you MUST quote your string. Otherwise, the colon is interpreted as a key/value separator (e.g. _key: value_). Example:
+If your string includes a colon (`:`) followed by a space you MUST quote your string. Otherwise, the colon is interpreted as a key/value separator (e.g. _key: value_). Example:
 
 ``` yaml
 title: "Text Processing with Ruby: Extract Value from the Data That Surrounds You"
@@ -120,8 +120,8 @@ key2: ""        # note: value will become => "" (string)
 
 _JSON is (a subset of) YAML, that is YAML is JSON but JSON is NOT YAML ;-)_
 
-Note: As an alternative syntax you can use the inline style for lists (that is, JSON arrays)
-and hashes (that is, JSON objects). Example:
+Example: Use the inline style for lists (that is, JSON arrays)
+and hashes (that is, JSON objects) for an alternative "JSON-style" syntax:
 
 ``` yaml
 [{ "title": "football.db - Open Football Data",
