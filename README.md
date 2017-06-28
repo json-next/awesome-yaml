@@ -123,11 +123,16 @@ _JSON is (a subset of) YAML, that is YAML is JSON but JSON is NOT YAML ;-)_
 Example: Use the inline style for lists (that is, JSON arrays)
 and hashes (that is, JSON objects) for an alternative "JSON-style" syntax:
 
+
 ``` yaml
-[{ "title": "football.db - Open Football Data",
-   "url":   "https://github.com/openfootball",
- { "title": "beer.db - Open Beer, Brewery 'n' Brewpub Data",
-   "url":   "https://github.com/openbeer" }]
+[
+  { "title": "football.db - Open Football Data",
+    "url":   "https://github.com/openfootball" 
+  },
+  { "title": "beer.db - Open Beer, Brewery 'n' Brewpub Data",
+    "url":   "https://github.com/openbeer" 
+  }
+]
 ```
 
 is the same as:
