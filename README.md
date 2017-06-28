@@ -26,7 +26,7 @@ A collection of Awesome YAML (Ain't Markup Language) goodies for rich structured
 **YAML HQ**
 
 - [`yaml.org`](http://www.yaml.org) - official YAML website by Clark C. Evans
-  - [YAML Spec v1.2](http://yaml.org/spec/1.2/spec.html) - 3rd Edition, Oct 2009 
+  - [YAML Spec v1.2](http://yaml.org/spec/1.2/spec.html) - 3rd edition, Oct 2009 
   - [YAML Quick Reference Card](http://www.yaml.org/refcard.html) - one-page cheat sheet
 
 
@@ -49,13 +49,95 @@ A collection of Awesome YAML (Ain't Markup Language) goodies for rich structured
 ## Tips & Gotchas
 
 
+**Strings with Colons (`:`)**
+
+When to use quotes for your strings?
+
+If your string includes a colon (`:`) you MUST quote your string. Otherwise, the colon is interpreted as a key/value separator (e.g. _key: value_). Example:
+
+``` yaml
+title: "Text Processing with Ruby: Extract Value from the Data That Surrounds You"
+title: "Sinatra: Up and Running - Ruby for the Web, Simply"
+title: "Using JRuby: Bringing Ruby to Java"
+```
+
+Note: You can quote your strings using double quotes (`""`) e.g. "Using JRuby: Bringing Ruby to Java" 
+or single quotes(`''`) e.g. 'Using JRuby: Bringing Ruby to Java'.
+
+
+
+**No Tabs (\t) for Indentation - Use Spaces, Period**
+
+Note: Always use spaces for indentation, period. 
+Make sure no tabs (`\t`) have somehow ended up in your datafile leading to
+unexpected results.
+
+
+
+**Predefined Boolean 'n' No Value Constants - True/False, Yes/No, On/Off, ~/Null**
+
+Note: The boolean `true` and `false` constants e.g.:
+
+```
+true, True, TRUE
+y, Y, yes, YES, YES
+on, ON, ON
+false, False, FALSE
+n, N, no, No, NO
+off, Off, OFF
+```
+
+will become boolean values e.g. `true` or `false`.  If you want end-up with a string e.g.:
+
+``` yaml
+recommend: Yes       # note: will become => true (boolean)
+```
+
+make sure you use a quoted version e.g.:
+
+``` yaml
+recommend: "Yes"     # note: will become => "Yes" (string)
+```
+
+
+Note: The same holds for the no value null constants e.g.:
+
+``` yaml
+~
+null, Null, NULL
+```
+
+will become => `null` (no value). Note: A key without a value will end-up with a `null` value (and not an empty string, for example). To get an empty string use `""` e.g.:
+
+``` yaml
+key1:           # note: value will become => null (no value); same as key1: null  or key1: ~
+key2: ""        # note: value will become => "" (string)
+```
+
+
 
 ## JSON 
 
-_JSON is (a subset of) YAML_
+_JSON is (a subset of) YAML, that is YAML is JSON but JSON is NOT YAML ;-)_
 
+Note: As an alternative syntax you can use the inline style for lists (that is, JSON arrays)
+and hashes (that is, JSON objects). Example:
 
+``` yaml
+[{ "title": "football.db - Open Football Data",
+   "url":   "https://github.com/openfootball",
+ { "title": "beer.db - Open Beer, Brewery 'n' Brewpub Data",
+   "url":   "https://github.com/openbeer" }]
+```
 
+is the same as:
+
+``` yaml
+- title : football.db - Open Football Data
+  url   : https://github.com/openfootball
+- title : beer.db - Open Beer, Brewery 'n' Brewpub Data
+  url   : https://github.com/openbeer
+```
 
 
 ## Misc
