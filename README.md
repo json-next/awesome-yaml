@@ -13,7 +13,7 @@ The design goals for YAML:
 
 # Awesome YAML (Ain't Markup Language)
 
-A collection of Awesome YAML (Ain't Markup Language) goodies for rich structured (meta) data in (plain) text
+A collection of Awesome YAML (Ain't Markup Language) goodies for structured (meta) data in text.
 
 
 #### _Contributions welcome. Anything missing? Send in a pull request. Thanks._
