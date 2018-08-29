@@ -146,6 +146,7 @@ is the same as:
 
 - [**YAML Linter @ yamllint.com**](http://www.yamllint.com) - online YAML validator / checker
 - [**YAML Validator @ Code Beautify**](https://codebeautify.org/yaml-validator) - online YAML validator / checker
+- [**Yamlinc**](https://github.com/javanile/yamlinc) - compose multiple files using $include tag / compiler
 
 
 
