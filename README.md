@@ -33,6 +33,32 @@ A collection of Awesome YAML (Ain't Markup Language) goodies for structured (met
 
 
 
+### Nested Text  - YAML Simplified, YAML Evolved 
+
+_"Safer" YAML - YAML Redux_
+
+- [`nestedtext.org`](https://nestedtext.org), [(github)](https://github.com/KenKundert/nestedtext) - a human friendly data format similar to YAML but without the complexity and risk of YAML 
+
+Example:
+
+```
+# Contact information for our officers
+
+president:
+    name: Katheryn McDaniel
+    address:
+        > 138 Almond Street
+        > Topeka, Kansas 20697
+    phone:
+        cell: 1-210-555-5297
+        home: 1-210-555-8470
+            # Katheryn prefers that we always call her on her cell phone.
+    email: KateMcD@aol.com
+    additional roles:
+        - board member
+```
+
+
 ## Articles
 
 - [**YAML Quick Reference (Cheat Sheet) for Jekyll Data Files, Front Matter and Collections**](https://github.com/planetjekyll/quickrefs/blob/master/YAML.md), Planet Jekyll
