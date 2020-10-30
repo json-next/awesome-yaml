@@ -11,6 +11,7 @@ The design goals for YAML:
 - YAML is easy to implement and use.
 ```
 
+
 # Awesome YAML (Ain't Markup Language)
 
 A collection of Awesome YAML (Ain't Markup Language) goodies for structured (meta) data in text.
@@ -29,8 +30,16 @@ A collection of Awesome YAML (Ain't Markup Language) goodies for structured (met
   - [YAML Spec v1.2](http://yaml.org/spec/1.2/spec.html) - 3rd edition, Oct 2009 
   - [YAML Quick Reference Card](http://www.yaml.org/refcard.html) - one-page cheat sheet
 
-### "Safe" YAML
+### "Safe" YAML, "Strict" YAML
 
+- [`strictyaml`](https://github.com/crdoconnor/strictyaml) - a type-safe YAML parser that parses and validates a restricted subset of the YAML specification
+  - [YAML Features Removed](https://hitchdev.com/strictyaml/features-removed/)
+    - NO Implicit Typing 
+    - NO Direct representations of objects
+    - NO Duplicate Keys Disallowed
+    - NO Explicit tags 
+    - NO Node anchors and refs
+    - NO Flow style
 
 
 ### Nested Text  - YAML Simplified, YAML Evolved 
