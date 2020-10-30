@@ -173,7 +173,30 @@ is the same as:
 - [**YAML Linter @ yamllint.com**](http://www.yamllint.com) - online YAML validator / checker
 - [**YAML Validator @ Code Beautify**](https://codebeautify.org/yaml-validator) - online YAML validator / checker
 - [**Yamlinc**](https://github.com/javanile/yamlinc) - compose multiple files using $include tag / compiler
-- [**dasel**](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to [jq](https://github.com/stedlan/jq) / [yq](https://github.com/kislyuk/yq) but supports JSON, YAML, TOML and XML with zero runtime dependencies.
+- [**dasel ("data-selector")**](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to [jq](https://github.com/stedlan/jq) / [yq](https://github.com/kislyuk/yq) but supports JSON, YAML, TOML and XML with zero runtime dependencies.
+
+
+## No Body Wants To Write YAML 
+
+``` yaml
+No:
+	Body:
+		Wants:
+			To:
+				Write:
+					- YAML
+```
+
+- [`(noyaml.com)`](https://noyaml.com), [(github)](https://github.com/ghuntley/noyaml) - a rant about the state of devops tooling / the infrastructure sector 
+
+Mandatory "No Body Wants To Write YAML" reading list:
+- [Today we’re going to look at some general problems with the YAML format](https://arp242.net/yaml-config.html)
+- [We replaced 1,000 lines of YAML with 10 structs and people started contributing again](https://tinyurl.com/lessons-in-over-engineering)
+- [What if you used the same language and tools you use to define your app to define your infrastructure?](https://twitter.com/ellism/status/1008728148131733504)
+- [A YAML file is almost always still 'valid' even if it is trunca](https://twitter.com/colmmacc/status/1057316977457324032)
+- [the bug was that the YAML parser ignored the negative signs ... so negative GPS coordinates became positive ones](https://twitter.com/colmmacc/status/1063470541464461312)
+- [Every YAML parser is a custom YAML parser](https://matrix.yaml.io/valid.html)
+- [There are 63 different ways to write multi-line strings in YAML](https://stackoverflow.com/a/21699210/1094085)
 
 
 
