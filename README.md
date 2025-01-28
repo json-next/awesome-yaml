@@ -214,6 +214,7 @@ Mandatory "No Body Wants To Write YAML" reading list:
 
 - [**Feed.TXT**](https://feedtxt.github.io) - web feed format with meta data in YAML
 - [**YAML @ Stackoverflow**](https://stackoverflow.com/tags/yaml/info) - frequently asked questions (and answers) about YAML
+- [**Manifest**](https://manifest.build) - a complete backend in 1 YAML file 
 
 
 ## Meta
