@@ -182,6 +182,7 @@ is the same as:
 - [**YAML Linter @ yamllint.com**](http://www.yamllint.com) - online YAML validator / checker
 - [**YAML Validator @ Code Beautify**](https://codebeautify.org/yaml-validator) - online YAML validator / checker
 - [**YAML Comparator @ yamline**](https://yamline.com/compare/) - online YAML comparator
+- [**YAML to JSON @ PDF Mavericks**](https://pdfmavericks.com/yaml-to-json) - online bidirectional YAML ↔ JSON converter, fully client-side, nothing uploaded
 - [**Yamlinc**](https://github.com/javanile/yamlinc) - compose multiple files using $include tag / compiler
 - [**YAML Validator**](https://yamlvalidator.dev), [(chrome extension)](https://chromewebstore.google.com/detail/yaml-validator/gjgbohnlhijomhfiflapnlnmcpckgigg) - online YAML validator, formatter and viewer with JSON Schema support (Kubernetes, Docker Compose, GitHub Actions, and more)
 - [**dasel ("data-selector")**](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to [jq](https://github.com/stedlan/jq) / [yq](https://github.com/kislyuk/yq) but supports JSON, YAML, TOML and XML with zero runtime dependencies.
