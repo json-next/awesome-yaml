@@ -186,6 +186,7 @@ is the same as:
 - [**Yamlinc**](https://github.com/javanile/yamlinc) - compose multiple files using $include tag / compiler
 - [**YAML Validator**](https://yamlvalidator.dev), [(chrome extension)](https://chromewebstore.google.com/detail/yaml-validator/gjgbohnlhijomhfiflapnlnmcpckgigg) - online YAML validator, formatter and viewer with JSON Schema support (Kubernetes, Docker Compose, GitHub Actions, and more)
 - [**dasel ("data-selector")**](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to [jq](https://github.com/stedlan/jq) / [yq](https://github.com/kislyuk/yq) but supports JSON, YAML, TOML and XML with zero runtime dependencies.
+- [**JSON Schema Generator @ Nutilz**](https://nutilz.com/json-schema-generator) - infers a JSON Schema from sample JSON data (useful for validating YAML-derived configs like Kubernetes manifests or GitHub Actions), fully client-side, no signup
 
 
 ## No Body Wants To Write YAML 
