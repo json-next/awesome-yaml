@@ -74,6 +74,7 @@ president:
 - [**Learn YAML in Y Minutes**](https://learnxinyminutes.com/docs/yaml), Learn X in Y minutes series, 
 - [**Deep dive into TOML, JSON and YAML**](https://gohugohq.com/howto/toml-json-yaml-comparison/),  Go Hugo HQ, Dec 2016
 - [**YAML @ Wikipedia**](https://en.wikipedia.org/wiki/YAML)
+- [**StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs**](https://arxiv.org/abs/2505.20139) - TMLR 2025 benchmark evaluating YAML generation and conversion with syntax and structural checks, alongside 17 other formats. ([code](https://github.com/TIGER-AI-Lab/StructEval))
 
 
 ## Tips & Gotchas
