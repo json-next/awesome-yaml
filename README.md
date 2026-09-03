@@ -179,6 +179,7 @@ is the same as:
 
 ## Tools & Services
 
+- [**YAML Preflight**](https://yaml.aevumere.com/yaml-preflight?source=awesome-yaml) - browser-local strict YAML and GitHub Actions permissions preflight that rejects duplicate keys; no upload or sign-up
 - [**YAML Linter @ yamllint.com**](http://www.yamllint.com) - online YAML validator / checker
 - [**YAML Validator @ Code Beautify**](https://codebeautify.org/yaml-validator) - online YAML validator / checker
 - [**YAML Comparator @ yamline**](https://yamline.com/compare/) - online YAML comparator
