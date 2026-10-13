@@ -74,6 +74,7 @@ president:
 - [**Learn YAML in Y Minutes**](https://learnxinyminutes.com/docs/yaml), Learn X in Y minutes series, 
 - [**Deep dive into TOML, JSON and YAML**](https://gohugohq.com/howto/toml-json-yaml-comparison/),  Go Hugo HQ, Dec 2016
 - [**YAML @ Wikipedia**](https://en.wikipedia.org/wiki/YAML)
+- [**YAML vs JSON for LLMs: Real Token Counts, Real Gotchas**](https://devtoolhub.com/yaml-vs-json-for-llms/), DevToolHub, Oct 2026
 
 
 ## Tips & Gotchas
