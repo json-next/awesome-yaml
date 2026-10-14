@@ -185,6 +185,7 @@ is the same as:
 - [**YAML to JSON @ PDF Mavericks**](https://pdfmavericks.com/yaml-to-json) - online bidirectional YAML ↔ JSON converter, fully client-side, nothing uploaded
 - [**Yamlinc**](https://github.com/javanile/yamlinc) - compose multiple files using $include tag / compiler
 - [**YAML Validator**](https://yamlvalidator.dev), [(chrome extension)](https://chromewebstore.google.com/detail/yaml-validator/gjgbohnlhijomhfiflapnlnmcpckgigg) - online YAML validator, formatter and viewer with JSON Schema support (Kubernetes, Docker Compose, GitHub Actions, and more)
+- [**Tool Kumar**](https://tools.vikasmaur.com/tools/yaml-to-json) - free browser-based YAML ↔ JSON converter and JSON viewer that works offline
 - [**dasel ("data-selector")**](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to [jq](https://github.com/stedlan/jq) / [yq](https://github.com/kislyuk/yq) but supports JSON, YAML, TOML and XML with zero runtime dependencies.
 - [**yaml-drift**](https://github.com/tamerkalla/yaml-drift) - convert YAML to JSON and get a report of every value whose meaning changed - precision, non-finite numbers, coerced keys, dropped tags, and scalars that YAML 1.1 reads differently
 
