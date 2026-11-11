@@ -181,6 +181,7 @@ is the same as:
 
 - [**YAML Linter @ yamllint.com**](http://www.yamllint.com) - online YAML validator / checker
 - [**YAML Validator @ Code Beautify**](https://codebeautify.org/yaml-validator) - online YAML validator / checker
+- [**YAML Validator @ NV Toolkit**](https://nvtoolkit.com/yaml-validator) - online YAML 1.2 validator with the exact line and column of each error, anchors and aliases resolved, editor error markers; fully client-side, nothing uploaded
 - [**YAML Comparator @ yamline**](https://yamline.com/compare/) - online YAML comparator
 - [**YAML to JSON @ PDF Mavericks**](https://pdfmavericks.com/yaml-to-json) - online bidirectional YAML ↔ JSON converter, fully client-side, nothing uploaded
 - [**Yamlinc**](https://github.com/javanile/yamlinc) - compose multiple files using $include tag / compiler
